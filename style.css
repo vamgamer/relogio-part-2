@@ -1,0 +1,109 @@
+@font-face {
+    font-family: relogio;
+    src: url(font/DS-DIGI.TTF);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp11357060.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.relogio{
+    text-align: center;
+    font-family: 'relogio', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    max-width: 450px;
+    margin-top: 10px;
+    margin-left: 456px;
+    background-color: #000000be;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oswald:wght@300&display=swap');
+
+body {
+    margin-top: 23vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/06/14/15/22/bomb-2402460_960_720.png); */
+    background-image: url(https://www.shutterstock.com/image-vector/digital-alarm-clock-vector-illustration-260nw-1612711480.jpg);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    margin-top: -40px;
+    background-color: #2f2f2f;
+    height: 52vh;
+    width: 115vh;
+    border-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45vh;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.relogio {
+    background-color: rgb(108, 255, 3);
+    font-size: 120px;
+    margin-top: 14vh;
+    font-family: 'relogio', sans-serif;
+    font-size: 73px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.frase {
+    color: white;
+    margin-top: 3vh;
+    font-size: 25px;
+}
+
+footer {
+    margin-top: 24vh;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #000;
+}
